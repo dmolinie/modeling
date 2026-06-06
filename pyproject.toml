@@ -1,0 +1,37 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'modeling'
+dynamic = ['version']   # Dynamic versioning from project
+description = "Tools for modeling (interpolation) time-series data"
+#long_description=long_description
+#readme = 'README.md'
+readme = {file = 'README.md', content-type = 'text/markdown'}
+authors = [
+    {name = "Dylan MOLINIE"},
+    {email = "dylan.molinie@gmx.fr"}
+]
+license = 'GPL-3.0-or-later'
+license-files = ['LICENSE.txt']
+requires-python = '>= 3.8'
+dependencies = [
+    'numpy',
+]
+
+[tool.setuptools.dynamic]
+# Retrieve the 'version' from the project '__init__' file
+version = {attr = 'modeling.__version__'}
+
+[project.optional-dependencies]
+# For using Scikit-Learn Machine Learning Models
+sklearn = ['scikit-learn']
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ['.']   # Current folder by default
+include = ['*'] # All packages by default
+
