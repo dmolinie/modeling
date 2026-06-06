@@ -26,7 +26,7 @@ This work was the second part of the research I carried out as part of my doctor
 For extensive explanations on and comparison of the methods implemented in this toolbox, refer to *Chapter 3 Optimization & Modeling* and *Chapter 4 Modeling & Forecasting of Nonlinear, Dynamic Industrial Processes* of this dissertation, and for concrete examples of use in real industrial contexts, refer to *Chapter 5 Anomaly Detection and Classification in Industrial Contexts*.
 
 The first part of the work investigated during my doctoral research deals with the clustering of ND data, and is made available as the
-[`clustering`]()
+[`clustering`](https://github.com/dmolinie/clustering)
 package. Both projects have been made independent, but were originally conceived to work together: a dataset can first be clustered using tools from `clustering`, and then a multi-model can be built and trained on the so-issued clusters using the tools from `modeling`. Both packages can nonetheless be installed and used independently.
 
 ### Authors & Support
