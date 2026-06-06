@@ -49,12 +49,12 @@ The project is distributed under GPLv3 license.
 ## Download
 
 To download the project, either go to the project page:  
-https://gitlab.com/primaut/modeling
+https://github.com/dmolinie/modeling
 
 Or download it directly with the following command:
 
 ```bash
-git clone https://gitlab.com/primaut/modeling.git
+git clone https://github.com/dmolinie/modeling.git
 ```
 
 
