@@ -1,4 +1,4 @@
-# Toolbox to model 1D time series from complex, dynamic industrial systems
+# Toolbox to Model 1D Time Series From Complex, Dynamic Industrial Systems
 
 <h1 align="center">
 <img src="scripts/illustration.png">
