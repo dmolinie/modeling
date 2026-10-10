@@ -1,11 +1,20 @@
 """ Time-series modeling toolbox """
 
+# Package version & author
 __version__ = '1.0'
+__author__ = "Dylan MOLINIE"
 
+# Modules that require third-part libraries (listed as
+# "dependencies" in the '.toml' installation file)
 __submodules__ = {
-    'optimization', 'interpolators',
-    'rbf_nets', 'multimodels', 'multimodels_win'}
+    'optimization',     # numpy
+    'interpolators',    # numpy
+    'rbf_nets',         # numpy
+    'multimodels',      # numpy
+    'multimodels_win'   # numpy
+}
 __all__ = list(__submodules__)
+
 
 def __getattr__(attr):
     """ Return the correct module from its name, if it exists """

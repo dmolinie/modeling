@@ -11,7 +11,7 @@
 2. [Download](#Download)
 3. [Installation](#Installation)
 4. [Modules Description](#Modules-Description)
-5. [Example of Usage](#Example-of-Usage)
+5. [Example of Use](#Example-of-Use)
 
 
 ## Description
