@@ -6,7 +6,6 @@
 
 
 ## Contents
-
 1. [Description](#Description)
 2. [Download](#Download)
 3. [Installation](#Installation)
@@ -15,7 +14,7 @@
 
 
 ## Description
-The **modeling** package is a toolbox that provides tools to model 1D time-series data. It features three main parts:
+The `modeling` package is a toolbox that provides tools to model 1D time-series data. It features three main parts:
 
 1. **Optimization**: functions and classes to compute the first and second order derivatives of a function, its gradient (with several variants, e.g. Backtracking and AdaGrad) and its Hessian matrix, as well as several optimization algorithms, among which the 1st order Gradient Descent, the 2nd order Newton method and the Levenberg-Marquardt simplification.
 2. **Modeling**: classes to directly model time series, among which Polynomial and Sinusoidal Interpolations, Regressive Interpolation and the Radial Basis Function Networks (that may also be used as a multi-model).
@@ -47,7 +46,6 @@ The project is distributed under GPLv3 license.
 
 
 ## Download
-
 To download the project, either go to the project page:  
 https://github.com/dmolinie/modeling
 
