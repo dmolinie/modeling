@@ -1,6 +1,0 @@
-git init
-git remote add mod https://github.com/dmolinie/modeling
-git add *
-git commit -m "Comment"
-git push mod master
-
